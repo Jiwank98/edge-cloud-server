@@ -1,0 +1,10 @@
+services:
+  test:
+    image: dnn:0.1
+    command: nvidia-smi
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: [gpu]
