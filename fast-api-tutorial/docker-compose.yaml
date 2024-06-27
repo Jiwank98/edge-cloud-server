@@ -1,10 +1,3 @@
-services:
-  test:
-    image: dnn:0.1
-    command: nvidia-smi
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - driver: nvidia
-              capabilities: [gpu]
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ee273f43c35b0bd1e586e62be878127a838b55f32e5138068e0c9f2dd328d8b
+size 202
